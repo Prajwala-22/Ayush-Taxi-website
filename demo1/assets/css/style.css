@@ -1,0 +1,547 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+  
+}
+
+.header{
+    width: 100%;
+    height: 14px;
+    background-color: black;
+}
+.navbar-default{
+    background-color: white;
+    
+}
+
+.navbar-img{
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+.navbar-nav{
+    position: absolute;
+    left:400px;
+    top: 25px;
+    color: black;
+}
+
+.header_button{
+   
+    position: absolute;
+    left: 300px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: black;
+    bottom: 9px;
+
+}
+/*
+.navbar-nav li:hover{
+  
+    background-color: orange;
+}
+*/
+.sliderr{
+    position: inherit;
+    height: 545px;
+    background-color: white;
+}
+.image-sliderr{
+    position: relative;
+  
+   bottom: 40px;
+   
+}
+.anim-para{
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    bottom: 220px;
+    left: 400px;
+    animation: textup 1.8s  ease forwards;
+    opacity: 0;
+}
+@keyframes textup{
+    0%{ 
+        opacity: 0;
+        transform: translateY(60%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.container_about{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+}
+.about_us{
+    position: absolute;
+    left: 750px;
+    top:60px;
+    font-size: 30px;
+}
+.about_img{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    animation: bounceIn 1s ease-in-out;
+}
+@keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .bounce-in {
+    animation: bounceIn 2s ease-in-out;
+  }
+
+.about_para{
+    position: absolute;
+    top:200px;
+    left: 800px;
+    width: 700px;
+    font-size: 19px;
+
+}
+
+.container-whyus{
+    position: relative;
+    background-color: gainsboro;
+    top: 695px;
+    width: 450px;
+    width: 100%;
+    height: 450px;
+}
+
+.whyus{
+    position: absolute;
+    left: 700px;
+    top:40px;
+    font-size: 30px;
+}
+
+.box1{
+    position: absolute;
+    width:250px;
+    height: 280px;
+    background-color: white;
+    top: 150px;
+    left: 210px;
+    border-radius: 15px;
+}
+
+.box2{
+    position: absolute;
+    width:250px;
+    height: 280px;
+    background-color: white;
+    top: 150px;
+    left: 490px;
+    border-radius: 15px;
+}
+.box3{
+    position: absolute;
+    width:250px;
+    height: 280px;
+    background-color: white;
+    top: 150px;
+    left:770px;
+    border-radius: 15px;
+  
+}
+
+.box4{
+    position: absolute;
+    width:250px;
+    height: 280px;
+    background-color: white;
+    top: 150px;
+    left: 1050px;
+    border-radius: 15px;
+    
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    border: 5px solid orange;
+    transition-duration: 0.2s;
+}
+
+.box1 img,.box2 img,.box3 img,.box4 img{
+    position: absolute;
+    top: 40px;
+    left: 75px;
+}
+
+.box1-para, .box2-para,.box3-para,.box4-para {
+    position: absolute;
+    top: 200px;
+    left:40px;
+    font-size: 20px;
+}
+.why-img img{
+   opacity: 0.8;
+}
+
+
+.gallery{
+    position: absolute;
+    top:1800px;
+    width:100%;
+    height:770px;
+    background-color: white;
+}
+.gallery h2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top:25px;
+    left:700px;
+    color:rgb(10, 0, 0);
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.photo1{
+    position:absolute;
+}
+.photo1 img{
+    position: absolute;
+    width:300px;
+    height:200px;
+    top:100px;
+    left:100px;
+    border-radius: 10px;
+}
+.photo2 img{
+    position: absolute;
+    width:300px;
+    height:200px;
+    top:100px;
+    left:420px;
+    border-radius: 10px;
+}
+.photo3 img{
+    position: absolute;
+    width:300px;
+    height:200px;
+    top:320px;
+    left:100px;
+    border-radius: 10px;
+}
+.photo4 img{
+    position: absolute;
+    width:300px;
+    height:200px;
+    top:540px;
+    left:100px;
+    border-radius: 10px;
+}
+.photo5 img{
+    position: absolute;
+    width:300px;
+    height:410px;
+    top:320px;
+    left:420px;
+    border-radius: 10px;
+}
+.photo6 img{
+    position: absolute;
+    width:300px;
+    height:410px;
+    top:100px;
+    left:750px;
+    border-radius: 10px;
+}
+.photo7 img{
+    position: absolute;
+    width:300px;
+    height:190px;
+    top:535px;
+    left:750px;
+    border-radius: 10px;
+}
+.photo8 img{
+    position: absolute;
+    width:300px;
+    height:190px;
+    top:100px;
+    left:1070px;
+    border-radius: 10px;
+}
+.photo9 img{
+    position: absolute;
+    width:300px;
+    height:190px;
+    top:310px;
+    left:1070px;
+    border-radius: 10px;
+}
+.photo10 img{
+    position: absolute;
+    width:300px;
+    height:190px;
+    top:540px;
+    left:1070px;
+    border-radius: 10px;
+}
+
+/*testies*/
+.testimonial{
+    position:absolute;
+    top:2570px;
+    width: 100%;
+    height:600px;
+    background-color: gainsboro;
+}
+.testimonial h3{
+    position: absolute;
+    top:50px;
+    left:700px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.taxi{
+    position:relative;
+    top:220px;
+    left:25px;
+}
+.taxi img{
+position:absolute;
+animation: car 2s linear ;
+
+}
+@keyframes car{
+    0%{
+        left: -50%;
+    }
+    100%{
+        left: 0%;
+    }
+    
+}
+.block1{
+    position:absolute;
+    width:300px;
+    height:310px;
+    left:300px;
+    top:100px;
+    background-color: white;
+    left:730px;
+    top:160px;
+    padding:5px;
+    border-radius: 10px;
+}
+.block1 p{
+    position: absolute;
+    top:170px;
+    word-spacing: 2px;
+    left: 50px;
+    font-family: sans-serif;
+}
+.block1 img{
+    position: absolute;
+    top:25px;
+    left:115px;
+}
+.block1 b{
+    position: absolute;
+    top:120px;
+    left:120px;
+}
+.block1 h5{
+    position: absolute;
+    top:140px;
+    left:125px;
+    font-weight: lighter;
+}
+.block1:hover,.block2:hover{
+    border:5px solid gainsboro;
+   border-top-left-radius: 60px;
+   transition: 0.5s;
+   box-shadow: 40px 40px 40px grey;
+}
+.block2{
+    position:absolute;
+    width:300px;
+    height:310px;
+    left:300px;
+    top:100px;
+    background-color: white;
+    left:1070px;
+    top:160px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+
+.block2 img{
+    position: absolute;
+    top:25px;
+    left:115px;
+}
+.block2 p{
+    position: absolute;
+    top:170px;
+    word-spacing: 2px;
+    left: 50px;
+    font-family: sans-serif;
+}
+.block2 b{
+    position: absolute;
+    top:120px;
+    left:135px;
+}
+.block2 h5{
+    position: absolute;
+    top:140px;
+    left:125px;
+    font-weight: lighter;
+}
+
+
+.contact-container{
+    position: relative;
+    top: 2065px;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+}
+.contact-us{
+    position: absolute;
+    top:80px;
+    left: 700px;
+    font-size: 30px;
+}
+
+.map-img iframe{
+    position: absolute;
+    top:190px;
+    left: 200px; 
+    border-radius: 10px;
+}
+.contact-para{
+    position: absolute;
+    left: 800px;
+    top:190px;
+    font-size: 25px;
+}
+
+.contact-content{
+    position: absolute;
+    top: 255px;
+    left: 800px;
+
+    font-size: 20px;
+}
+.whatsapp-icon {
+    color: green;
+    font-size: 35px;
+  }
+  .contact-button{
+    position: absolute;
+    left: 800px;
+    top:500px;
+   
+  }
+
+  .btn-warning{
+    position: absolute;
+    width:200px;
+    height: 60px;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+  
+  }
+
+  .contact-hand-img{
+    position: absolute;
+    top:350px;
+    left: 1100px;
+    animation: bounceInUp 1s ease-in-out;
+    z-index: 1;
+  }
+ 
+  @keyframes bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    60% {
+      opacity: 1;
+      transform: translateY(-20%);
+    }
+    80% {
+      transform: translateY(10%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  .message-icon {
+    color: orange;
+  }
+
+  .footerr{
+    position: absolute;
+    background-color: rgb(47, 47, 47);
+    height: 290px;
+    width: 100%;
+    top:3820px;
+  }
+
+  .footer-logo{
+    position: absolute;
+    left: 600px;
+    top: 40px;
+  }
+
+  /*footer nav*/
+  .footer-menu{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(47, 47, 47);
+    top: 3950px;
+    left: 420px;
+  }
+
+  .footer-menu ul li{
+   list-style-type: none;
+   
+   
+  }
+  .footer-link{
+    display: flex;
+    
+  }
+  .footer-link li{
+    padding: 10px;
+    
+  }
+  .footer-link li a{
+    color: white;
+  }
+  /*----------------*/
+  html {
+    scroll-behavior: smooth;
+    
+    transition: 5s ease-in-out;
+  }
